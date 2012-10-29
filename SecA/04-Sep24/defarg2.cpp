@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-void bar(int val = 79, char ch = '=')
+void bar(int val = 79, char ch = '=');
 int main(){
   bar(15);
   bar();   // defaulted bar
